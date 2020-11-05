@@ -3019,8 +3019,8 @@ CM.ConfigDefault = {
 };
 CM.ConfigPrefix = 'CMConfig';
 
-CM.VersionMajor = '2.021';
-CM.VersionMinor = '2';
+CM.VersionMajor = '2.031';
+CM.VersionMinor = '1';
 
 /*******
  * Sim *
