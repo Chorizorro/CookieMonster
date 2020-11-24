@@ -200,6 +200,7 @@ CM.Loop = function() {
 }
 
 CM.Init = function() {
+	alert('Cookie Monster official add-on has been updated to 2.031!\nPlease change the add-on loading back to the original one:\n\njavascript: (function () { Game.LoadMod(\'https://aktanusa.github.io/CookieMonster/CookieMonster.js\'); }());');
 	var proceed = true;
 	if (Game.version != CM.VersionMajor) {
 		proceed = confirm('Cookie Monster version ' + CM.VersionMajor + '.' + CM.VersionMinor + ' is meant for Game version ' + CM.VersionMajor + '.  Loading a different version may cause errors.  Do you still want to load Cookie Monster?');
